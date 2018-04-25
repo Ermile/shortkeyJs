@@ -12,7 +12,6 @@ bindHtmlShortkey();
  */
 function bindHtmlShortkey()
 {
-  console.log(1);
   $(document).keydown(function(_e) { shortkey_corridor.call(this, _e)});
 }
 
@@ -26,7 +25,6 @@ function bindHtmlShortkey()
  */
 function shortkey_corridor(_e, _self, _key)
 {
-  console.log(2);
   if(!_key)
   {
     _key = _e.which;
